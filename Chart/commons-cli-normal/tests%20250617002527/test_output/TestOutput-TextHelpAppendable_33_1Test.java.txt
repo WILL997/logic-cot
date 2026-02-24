@@ -1,0 +1,31 @@
+
+Failures (1):
+  JUnit Vintage:TextHelpAppendable_33_1Test:testGetIndent
+    MethodSource [className = 'org.apache.commons.cli.help.TextHelpAppendable_33_1Test', methodName = 'testGetIndent', methodParameterTypes = '']
+    => java.lang.IllegalAccessException: class org.apache.commons.cli.help.TextHelpAppendable_33_1Test cannot access a member of class org.apache.commons.cli.help.TextStyle$Builder with modifiers "private"
+       java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+       java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+       java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+       org.apache.commons.cli.help.TextHelpAppendable_33_1Test.testGetIndent(TextHelpAppendable_33_1Test.java:27)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+       org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+       [...]
+
+Test run finished after 70 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         1 tests failed          ]
+

@@ -1,0 +1,41 @@
+I need you to fix an error in a unit test, an error occurred while {{ error_type }}.
+
+The unit test is:
+```
+{{ unit_test }}
+```
+
+The error message is:
+```
+{{ error_message }}
+```
+
+The unit test is testing the method {{ method_name }} in the class {{ class_name }},
+the source code of the method under test and its class is:
+```
+{{ method_code }}
+```
+
+Please follow these rules:
+
+1. If {{ error_type }} is **"compiling"**:
+   - Fix only compilation issues (missing imports, incorrect class name vs file name, package problems, symbol not found, visibility issues, etc.).
+   - **Do NOT modify the test logic, the assertions, or the semantics of the test.**
+
+2. If {{ error_type }} is **"running"**:
+   - Determine from the error message whether the failure is:
+     - a **runtime exception** (e.g., NullPointerException, IllegalStateException, etc.), or
+     - an **assertion failure** (e.g., org.opentest4j.AssertionFailedError).
+
+   - If the failure is a **runtime exception**:
+     - Fix only the root cause of the exception (initialization, mocking, missing setup, incorrect reflection usage, etc.).
+     - **Do NOT modify the test logic or the assertions.**
+
+   - If the failure is an **assertion failure**:
+     - **The test executed successfully, but the assertion failed: the expected value does not match the actual value.**
+     - **Please review the annotation section of the test case and redesign the test assertions accordingly.**
+
+3. General rules:
+   - **Do NOT modify any annotation or comment section** (such as the @Intent / @Path / @State metadata).
+   - Preserve the **AAA structure** (Arrange–Act–Assert).
+   - Please fix the error and return the whole fixed unit test. You can use Junit 5, Mockito 3 and reflection. No explanation is needed.

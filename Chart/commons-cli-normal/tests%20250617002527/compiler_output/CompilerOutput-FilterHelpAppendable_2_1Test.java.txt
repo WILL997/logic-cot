@@ -1,0 +1,11 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/FilterHelpAppendable_2_1Test.java:26: error: FilterHelpAppendableImpl is not abstract and does not override abstract method appendTitle(CharSequence) in HelpAppendable
+    private static class FilterHelpAppendableImpl extends FilterHelpAppendable {
+                   ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/FilterHelpAppendable_2_1Test.java:42: error: appendTitle(CharSequence) in FilterHelpAppendableImpl cannot implement appendTitle(CharSequence) in HelpAppendable
+        public FilterHelpAppendable appendTitle(CharSequence title) {
+                                    ^
+  return type FilterHelpAppendable is not compatible with void
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/FilterHelpAppendable_2_1Test.java:41: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+3 errors

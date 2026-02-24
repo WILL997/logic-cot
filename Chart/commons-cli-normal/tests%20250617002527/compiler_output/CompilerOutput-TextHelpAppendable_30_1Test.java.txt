@@ -1,0 +1,4 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_30_1Test.java:37: error: printQueue(Queue<String>) has private access in TextHelpAppendable
+        verify(textHelpAppendable, Mockito.times(1)).printQueue(Mockito.any());
+                                                    ^
+1 error

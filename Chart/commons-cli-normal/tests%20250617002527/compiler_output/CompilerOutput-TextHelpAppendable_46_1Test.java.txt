@@ -1,0 +1,5 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_46_1Test.java:24: error: incompatible types: ByteArrayOutputStream cannot be converted to Appendable
+        TextHelpAppendable textHelpAppendable = new TextHelpAppendable(new ByteArrayOutputStream());
+                                                                       ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

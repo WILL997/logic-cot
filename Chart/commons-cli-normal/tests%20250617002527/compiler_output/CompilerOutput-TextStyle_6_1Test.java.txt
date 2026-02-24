@@ -1,0 +1,11 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_6_1Test.java:14: error: cannot find symbol
+                .alignment(TextStyle.Alignment.CENTER)
+                ^
+  symbol:   method alignment(Alignment)
+  location: class Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_6_1Test.java:34: error: cannot find symbol
+                .alignment(TextStyle.Alignment.LEFT)
+                ^
+  symbol:   method alignment(Alignment)
+  location: class Builder
+2 errors

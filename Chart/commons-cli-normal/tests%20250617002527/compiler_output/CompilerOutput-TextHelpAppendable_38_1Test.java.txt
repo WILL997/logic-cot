@@ -1,0 +1,59 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:50: error: cannot inherit from final Builder
+    private static class TextStyleBuilderMock extends TextStyle.Builder {
+                                                               ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:64: error: cannot inherit from final TextStyle
+    private static class TextStyleMock extends TextStyle {
+                                               ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:28: error: Builder() has private access in Builder
+        styles.add(new TextStyle.Builder().bold(true).build());
+                   ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:28: error: cannot find symbol
+        styles.add(new TextStyle.Builder().bold(true).build());
+                                          ^
+  symbol:   method bold(boolean)
+  location: class Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:29: error: Builder() has private access in Builder
+        styles.add(new TextStyle.Builder().italic(true).build());
+                   ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:29: error: cannot find symbol
+        styles.add(new TextStyle.Builder().italic(true).build());
+                                          ^
+  symbol:   method italic(boolean)
+  location: class Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:30: error: Builder() has private access in Builder
+        styles.add(new TextStyle.Builder().underline(true).build());
+                   ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:30: error: cannot find symbol
+        styles.add(new TextStyle.Builder().underline(true).build());
+                                          ^
+  symbol:   method underline(boolean)
+  location: class Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:50: error: Builder() has private access in Builder
+    private static class TextStyleBuilderMock extends TextStyle.Builder {
+                   ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:52: error: cannot find symbol
+            return super.bold(bold);
+                        ^
+  symbol: method bold(boolean)
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:56: error: cannot find symbol
+            return super.italic(italic);
+                        ^
+  symbol: method italic(boolean)
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:60: error: cannot find symbol
+            return super.underline(underline);
+                        ^
+  symbol: method underline(boolean)
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:64: error: constructor TextStyle in class TextStyle cannot be applied to given types;
+    private static class TextStyleMock extends TextStyle {
+                   ^
+  required: Builder
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:66: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_38_1Test.java:68: error: cannot find symbol
+                return super.build();
+                            ^
+  symbol: method build()
+15 errors

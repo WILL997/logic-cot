@@ -1,0 +1,6 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_31_1Test.java:54: error: cannot find symbol
+        String actualOutput = textHelpAppendable.getOutput().toString();
+                                                ^
+  symbol:   method getOutput()
+  location: variable textHelpAppendable of type TextHelpAppendable
+1 error

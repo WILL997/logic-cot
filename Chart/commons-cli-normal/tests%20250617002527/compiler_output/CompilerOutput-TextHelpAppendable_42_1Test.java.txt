@@ -1,0 +1,5 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_42_1Test.java:26: error: incompatible types: int cannot be converted to Builder
+        int result = textHelpAppendable.resize(orig, fraction);
+                                               ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

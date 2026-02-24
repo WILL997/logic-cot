@@ -1,0 +1,11 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_12_1Test.java:15: error: cannot find symbol
+        builder.withScalable(true);
+               ^
+  symbol:   method withScalable(boolean)
+  location: variable builder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_12_1Test.java:26: error: cannot find symbol
+        builder.withScalable(false);
+               ^
+  symbol:   method withScalable(boolean)
+  location: variable builder of type Builder
+2 errors

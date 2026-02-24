@@ -1,0 +1,40 @@
+You are an expert in software testing and symbolic reasoning.
+Your task is to generate input data that satisfies each execution path defined in the decision table.
+Each record in the decision table represents a unique combination of Boolean outcomes (`true` or `false`)
+for all conditional expressions within the function under test.
+### Requirements
+1. **Goal:**
+   For each path in the decision table, generate valid and type-correct input values
+   that make the specified conditions evaluate to the given true/false outcomes.
+2. **Input Sources:**
+   - The **class and method code** above (for parameter types and structure).
+   - The **decision table** above (for condition expressions and target outcomes).
+3. **Output Format:** strictly in JSON.
+   Each record in the JSON array must contain:
+   - `"conditions"`: a mapping of condition identifiers (e.g., `C1`, `C2`, …) to their corresponding expressions.
+   - `"path"`: a mapping of those conditions to their Boolean outcomes (`true` / `false`).
+   - `"input"`: a JSON object specifying the concrete input values required to satisfy that path.
+4. **Ensure that:**
+   - Every path in the decision table is represented by exactly one input combination.
+   - All inputs conform to the method’s parameter types and logical constraints.
+   - The output contains **only** the final JSON array — no explanations or text.
+Output example:
+[
+{
+"conditions":{"C1":"numbers==null","C2":"-","C3":"-"},
+"path":{"C1":true},
+"input":{"numbers":null}
+},
+{"conditions":{"C1":"numbers==null","C2":"numbers.length==0","C3":"-"},
+"path":{"C1":false,"C2":true},
+"input":{"numbers":[]}
+},
+{"conditions":{"C1":"numbers==null","C2":"numbers.length==0","C3":"num>max"},
+"path":{"C1":false,"C2":false,"C3":true},
+"input":{"numbers":[1,5,3]}
+},
+{"conditions":{"C1":"numbers==null","C2":"numbers.length==0","C3":"num>max"},
+"path":{"C1":false,"C2":false,"C3":false},
+"input":{"numbers":[5,2,1]}
+}
+]

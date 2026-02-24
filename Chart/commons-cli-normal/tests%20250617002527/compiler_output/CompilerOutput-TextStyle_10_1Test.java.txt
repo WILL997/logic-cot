@@ -1,0 +1,31 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_10_1Test.java:14: error: cannot find symbol
+        builder.alignment(TextStyle.Alignment.LEFT);
+               ^
+  symbol:   method alignment(Alignment)
+  location: variable builder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_10_1Test.java:15: error: cannot find symbol
+        builder.leftPad(2);
+               ^
+  symbol:   method leftPad(int)
+  location: variable builder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_10_1Test.java:16: error: cannot find symbol
+        builder.indent(4);
+               ^
+  symbol:   method indent(int)
+  location: variable builder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_10_1Test.java:17: error: cannot find symbol
+        builder.scalable(true);
+               ^
+  symbol:   method scalable(boolean)
+  location: variable builder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_10_1Test.java:18: error: cannot find symbol
+        builder.minWidth(0);
+               ^
+  symbol:   method minWidth(int)
+  location: variable builder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_10_1Test.java:19: error: cannot find symbol
+        builder.maxWidth(100);
+               ^
+  symbol:   method maxWidth(int)
+  location: variable builder of type Builder
+6 errors

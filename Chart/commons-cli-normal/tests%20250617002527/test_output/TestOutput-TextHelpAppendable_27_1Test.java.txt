@@ -1,0 +1,32 @@
+
+Failures (1):
+  JUnit Jupiter:TextHelpAppendable_27_1Test:testAdjustTableFormat()
+    MethodSource [className = 'org.apache.commons.cli.help.TextHelpAppendable_27_1Test', methodName = 'testAdjustTableFormat', methodParameterTypes = '']
+    => java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+       java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+       java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+       java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+       java.base/java.util.Objects.checkIndex(Objects.java:374)
+       java.base/java.util.ArrayList.get(ArrayList.java:459)
+       org.apache.commons.cli.help.TextHelpAppendable_27_1Test.testAdjustTableFormat(TextHelpAppendable_27_1Test.java:60)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       [...]
+
+Test run finished after 755 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         1 tests failed          ]
+
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended

@@ -1,0 +1,15 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_41_1Test.java:30: error: cannot find symbol
+        TextStyle style = styleBuilder.build();
+                                      ^
+  symbol:   method build()
+  location: variable styleBuilder of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_41_1Test.java:32: error: incompatible types: ByteArrayOutputStream cannot be converted to Appendable
+        TextHelpAppendable textHelpAppendable = new TextHelpAppendable(new ByteArrayOutputStream());
+                                                                       ^
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_41_1Test.java:40: error: cannot find symbol
+        textHelpAppendable.getOutput().writeTo(outputStream);
+                          ^
+  symbol:   method getOutput()
+  location: variable textHelpAppendable of type TextHelpAppendable
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors

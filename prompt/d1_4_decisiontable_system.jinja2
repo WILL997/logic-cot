@@ -1,0 +1,27 @@
+You are an expert in software testing and program analysis.
+Please extract all decision (predicate) conditions in the given Java function and generate a decision table that satisfies the *decision coverage* criterion.
+Decision coverage means that each condition must be evaluated to both true and false at least once, ensuring that all possible control-flow branches are represented.
+Your output must follow these requirements:
+1. **Output format:** strictly in JSON.
+2. **Each record** in the JSON array must contain:   - `"conditions"`: an object describing each condition expression (e.g., `C1`, `C2`, `C3`).       If a condition does not participate in a specific path, fill with `"-"`.   - `"path"`: an object indicating the Boolean value (`true` or `false`) of each condition under the current path.
+3. **Ensure coverage completeness:**     - All unique combinations of true/false values for the extracted conditions must be represented.     - Avoid duplicate or contradictory paths.
+4. **No explanations or comments**—only the final JSON array.
+Output example:
+[
+{
+"conditions":{"C1":"numbers==null","C2":"-","C3":"-"},
+"path":{"C1":true}
+},
+{
+"conditions":{"C1":"numbers==null","C2":"numbers.length==0","C3":"-"},
+"path":{"C1":false,"C2":true}
+},
+{
+"conditions":{"C1":"numbers==null","C2":"numbers.length==0","C3":"num>max"},
+"path":{"C1":false,"C2":false,"C3":true}
+},
+{
+"conditions":{"C1":"numbers==null","C2":"numbers.length==0","C3":"num>max"},
+"path":{"C1":false,"C2":false,"C3":false}
+}
+]

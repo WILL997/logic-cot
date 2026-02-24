@@ -1,0 +1,6 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextStyle_7_1Test.java:18: error: cannot find symbol
+                .withAlignment(expectedAlignment)
+                ^
+  symbol:   method withAlignment(Alignment)
+  location: class Builder
+1 error

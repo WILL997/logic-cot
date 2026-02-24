@@ -1,0 +1,31 @@
+Please help me generate a whole JUnit test for a focal method in a focal class.
+
+I will provide:
+1.Required dependencies to import.
+2.The focal class signature.
+3.Source code of the focal method.
+4.Signatures of other methods and fields in the class.
+5.A dataset of test state records (Ri).
+
+Your task:
+I need you to create a whole unit test using JUnit 5 and Mockito 3, ensuring optimal branch and line coverage. The test should include necessary imports for JUnit 5 and Mockito 3, compile without errors, and use reflection to invoke private methods. No additional explanations required.
+
+Rules
+1. Annotation Section (must be Javadoc above each test method)
+Use exactly this structure:
+
+/**
+ * @Intent <natural-language description derived from Ri.conditions>
+ * @Path   <Ri.path JSON>
+ * @State  Input: <Ri.input JSON>
+ *         Expected: <Ri.expected JSON>
+ */
+
+2. Code Section — must follow AAA (Arrange–Act–Assert)
+
+Arrange:
+Build input values from Ri.input.
+
+Act & Assert:
+If expected is a return value →use assertEquals.
+If expected is an exception → use assertThrows.

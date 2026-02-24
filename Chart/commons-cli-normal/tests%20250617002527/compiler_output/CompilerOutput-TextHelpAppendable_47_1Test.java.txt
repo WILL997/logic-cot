@@ -1,0 +1,16 @@
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_47_1Test.java:58: error: cannot find symbol
+        TextStyle style1 = styleBuilder1.build();
+                                        ^
+  symbol:   method build()
+  location: variable styleBuilder1 of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_47_1Test.java:67: error: cannot find symbol
+        TextStyle style2 = styleBuilder2.build();
+                                        ^
+  symbol:   method build()
+  location: variable styleBuilder2 of type Builder
+/home/usc/ChatUniTest-python/Chart/commons-cli-normal/tests%20250617002527/test_cases/TextHelpAppendable_47_1Test.java:81: error: cannot find symbol
+        assertEquals(expectedOutput, textHelpAppendable.getOutput().toString());
+                                                       ^
+  symbol:   method getOutput()
+  location: variable textHelpAppendable of type TextHelpAppendable
+3 errors
